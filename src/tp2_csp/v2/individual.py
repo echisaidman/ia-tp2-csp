@@ -1,4 +1,5 @@
 import random
+from math import inf
 
 type Chromosome = list[int]
 
@@ -62,26 +63,32 @@ class Individual:
         return fitness_score
 
     def __calculate_cuts_layout(self) -> list[list[int]]:
+        """Calculates the layout of cuts on bars using a Best-Fit heuristic."""
         bars_cuts: list[list[int]] = []
         bar_remainders: list[int] = []
 
         for cut in self.chromosome:
-            placed = False
-            # Try to place the cut in an existing bar (First Fit)
+            best_fit_idx = -1
+            min_remainder = inf
+
+            # Find the bar with the tightest fit (Best Fit)
             for i, remainder in enumerate(bar_remainders):
                 if cut <= remainder:
-                    bars_cuts[i].append(cut)
-                    bar_remainders[i] -= cut
-                    placed = True
-                    break
+                    new_remainder = remainder - cut
+                    if new_remainder < min_remainder:
+                        best_fit_idx = i
+                        min_remainder = new_remainder
 
-            # If it doesn't fit anywhere, start a new bar
-            if not placed:
+            if best_fit_idx != -1:
+                # Place in the best-fitting bar
+                bars_cuts[best_fit_idx].append(cut)
+                bar_remainders[best_fit_idx] -= cut
+            else:
+                # If it doesn't fit anywhere, start a new bar
                 bars_cuts.append([cut])
                 bar_remainders.append(self.bar_length - cut)
 
-        cuts_layout = bars_cuts
-        return cuts_layout
+        return bars_cuts
 
     def __calculate_bar_remainders(self, cuts_layout: list[list[int]]) -> list[int]:
         bar_remainders: list[int] = []

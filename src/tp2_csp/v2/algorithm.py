@@ -1,5 +1,4 @@
 import random
-from typing import cast
 
 from .individual import Individual
 
@@ -33,11 +32,9 @@ class CSPGeneticAlgorithm:
         """
         print("Genetic Algorithm for Cutting Stock Problem")
         print("------------------------------------------")
-        print(f"Starting evolution for {self.generations} generations...")
 
         population = self.__initialize_population()
         best_solution_ever = max(population, key=lambda x: x.fitness_score)
-        print(f"Generation 0: Best Fitness = {best_solution_ever.fitness_score:.4f}")
 
         for gen in range(self.generations):
             # Sort by fitness (descending) to easily find the best
@@ -48,9 +45,7 @@ class CSPGeneticAlgorithm:
             if current_best.fitness_score > best_solution_ever.fitness_score:
                 best_solution_ever = current_best
 
-            print(f"Generation {gen + 1}")
-
-            if (gen + 1) % 20 == 0:
+            if gen == 0 or (gen + 1) % 20 == 0 or gen == self.generations - 1:
                 print(
                     f"Generation {gen + 1:4d}: Best Fitness = {best_solution_ever.fitness_score:.4f} | "
                     f"Bars Used = {best_solution_ever.calculate_required_bars()} | "
@@ -82,7 +77,7 @@ class CSPGeneticAlgorithm:
             population = next_population
 
         print("\nEvolution finished.")
-        return cast(Individual, best_solution_ever)
+        return best_solution_ever
 
     def __flatten_cuts(self, cuts: dict[int, int]) -> list[int]:
         """Converts the dictionary of cuts into a single list of all cuts."""
@@ -126,7 +121,9 @@ class CSPGeneticAlgorithm:
             return missing_cuts
 
         if random.random() > self.crossover_rate:
-            return Individual(self.bar_length, parent1.chromosome), Individual(self.bar_length, parent2.chromosome)
+            child1 = Individual(self.bar_length, parent1.chromosome[:])
+            child2 = Individual(self.bar_length, parent2.chromosome[:])
+            return child1, child2
 
         size = len(parent1.chromosome)
         child1, child2 = [-1] * size, [-1] * size
