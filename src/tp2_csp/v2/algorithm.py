@@ -160,14 +160,20 @@ class CSPGeneticAlgorithm:
 
     def __mutate(self, individual: Individual) -> Individual:
         """
-        Performs Swap Mutation on a chromosome.
+        Performs Inversion Mutation on a chromosome.
+        A random sub-sequence is selected and its order is reversed.
         """
         if random.random() > self.mutation_rate:
             return individual
 
-        idx1, idx2 = random.sample(range(len(individual.chromosome)), 2)
+        start, end = sorted(random.sample(range(len(individual.chromosome)), 2))
         chromosome = individual.chromosome[:]
-        chromosome[idx1], chromosome[idx2] = chromosome[idx2], chromosome[idx1]
+
+        # Reverse the sub-sequence
+        sub_sequence = chromosome[start : end + 1]
+        sub_sequence = list(reversed(sub_sequence))
+        chromosome[start : end + 1] = sub_sequence
+
         return Individual(self.bar_length, chromosome)
 
 
@@ -180,6 +186,7 @@ def print_best_solution(best_solution: Individual, bar_length: int) -> None:
     print("=================================")
     print(f"Bars Required: {best_solution.calculate_required_bars()}")
     print(f"Total Waste: {best_solution.calculate_total_waste()} units")
+    print(f"% Wasted: {best_solution.calculate_percentage_wasted()}%")
     print("---------------------------------\n")
 
     for i, bar in enumerate(best_solution.cuts_layout):
