@@ -1,4 +1,5 @@
 import random
+from collections import Counter
 
 from .individual import Individual
 
@@ -109,58 +110,53 @@ class CSPGeneticAlgorithm:
         Performs Ordered Crossover (OX1) to create two children.
         This preserves the permutation nature of the chromosomes.
         """
-
-        def get_missing_cuts_in_list(all_cuts: list[int], used_cuts: list[int]) -> list[int]:
-            used_cuts = used_cuts[:]
-            missing_cuts: list[int] = []
-            for cut in all_cuts:
-                if cut in used_cuts:
-                    used_cuts.remove(cut)
-                else:
-                    missing_cuts.append(cut)
-            return missing_cuts
-
         if random.random() > self.crossover_rate:
             child1 = Individual(self.bar_length, parent1.chromosome[:])
             child2 = Individual(self.bar_length, parent2.chromosome[:])
             return child1, child2
 
         size = len(parent1.chromosome)
-        child1, child2 = [-1] * size, [-1] * size
+        child1_chromosome, child2_chromosome = [-1] * size, [-1] * size
 
         start, end = sorted(random.sample(range(size), 2))
 
         # Copy the slice from parents to children
         slice_from_p1 = parent1.chromosome[start : end + 1]
         slice_from_p2 = parent2.chromosome[start : end + 1]
-        child1[start : end + 1] = slice_from_p1
-        child2[start : end + 1] = slice_from_p2
+        child1_chromosome[start : end + 1] = slice_from_p1
+        child2_chromosome[start : end + 1] = slice_from_p2
 
-        # Get genes from parent2, correctly handling duplicates.
-        # We create a temporary list of the slice elements. When we find a
-        # matching element in parent2, we remove it from our temp list to "account for it".
-        genes_from_p2 = get_missing_cuts_in_list(parent2.chromosome, slice_from_p1)
+        # Fill remaining genes for Child 1 (from Parent 2)
+        p1_slice_counter = Counter(slice_from_p1)
+        genes_from_p2_for_child1: list[int] = []
+        for item in parent2.chromosome:
+            if p1_slice_counter[item] > 0:
+                p1_slice_counter[item] -= 1
+            else:
+                genes_from_p2_for_child1.append(item)
 
-        # Fill the rest of child1 from parent2
         p2_idx = 0
         for i in range(size):
-            if child1[i] == -1:
-                child1[i] = genes_from_p2[p2_idx]
+            if child1_chromosome[i] == -1:
+                child1_chromosome[i] = genes_from_p2_for_child1[p2_idx]
                 p2_idx += 1
 
-        # Get genes from parent1, correctly handling duplicates.
-        # We create a temporary list of the slice elements. When we find a
-        # matching element in parent1, we remove it from our temp list to "account for it".
-        genes_from_p1 = get_missing_cuts_in_list(parent1.chromosome, slice_from_p2)
+        # Fill remaining genes for Child 2 (from Parent 1)
+        p2_slice_counter = Counter(slice_from_p2)
+        genes_from_p1_for_child1: list[int] = []
+        for item in parent1.chromosome:
+            if p2_slice_counter[item] > 0:
+                p2_slice_counter[item] -= 1
+            else:
+                genes_from_p1_for_child1.append(item)
 
-        # Fill the rest of child2 from parent1
         p1_idx = 0
         for i in range(size):
-            if child2[i] == -1:
-                child2[i] = genes_from_p1[p1_idx]
+            if child2_chromosome[i] == -1:
+                child2_chromosome[i] = genes_from_p1_for_child1[p1_idx]
                 p1_idx += 1
 
-        return Individual(self.bar_length, child1), Individual(self.bar_length, child2)
+        return Individual(self.bar_length, child1_chromosome), Individual(self.bar_length, child2_chromosome)
 
     def __mutate(self, individual: Individual) -> Individual:
         """
