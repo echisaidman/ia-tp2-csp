@@ -1,3 +1,4 @@
+import pprint
 import random
 from collections import Counter
 
@@ -48,10 +49,10 @@ class CSPGeneticAlgorithm:
 
             if gen == 0 or (gen + 1) % 20 == 0 or gen == self.generations - 1:
                 print(
-                    f"Generation {gen + 1:4d}: Best Fitness = {best_solution_ever.fitness_score:.4f} | "
+                    f"Generation {gen + 1:4d}: Best Fitness = {best_solution_ever.fitness_score:.2f} | "
                     f"Bars Used = {best_solution_ever.calculate_required_bars()} | "
                     f"Total Waste = {best_solution_ever.calculate_total_waste()} | "
-                    f"% Wasted = {best_solution_ever.calculate_percentage_wasted()}"
+                    f"% Wasted = {best_solution_ever.calculate_percentage_wasted():.2f}%"
                 )
 
             # 2. Create Next Generation
@@ -186,7 +187,13 @@ def print_best_solution(best_solution: Individual, bar_length: int) -> None:
     print("=================================")
     print(f"Bars Required: {best_solution.calculate_required_bars()}")
     print(f"Total Waste: {best_solution.calculate_total_waste()} units")
-    print(f"% Wasted: {best_solution.calculate_percentage_wasted()}%")
+    print(f"% Wasted: {best_solution.calculate_percentage_wasted():.2f}%")
+    print("---------------------------------\n")
+
+    distinct_cuts = sorted(set(best_solution.chromosome))
+    cuts_quantity = {cut: best_solution.chromosome.count(cut) for cut in distinct_cuts}
+    print("Cuts in the solution (to check against the required cuts)")
+    pprint.pprint(cuts_quantity)
     print("---------------------------------\n")
 
     for i, bar in enumerate(best_solution.cuts_layout):
