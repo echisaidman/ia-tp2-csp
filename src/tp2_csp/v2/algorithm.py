@@ -28,7 +28,7 @@ class CSPGeneticAlgorithm:
         self.crossover_rate = crossover_rate
         self.mutation_rate = mutation_rate
 
-    def run(self) -> Individual:
+    def run(self) -> list[Individual]:
         """
         Runs the genetic algorithm to find the optimal cutting pattern.
         """
@@ -36,24 +36,22 @@ class CSPGeneticAlgorithm:
         print("------------------------------------------")
 
         population = self.__initialize_population()
-        best_solution_ever = max(population, key=lambda x: x.fitness_score)
+        best_solutions_by_generation: list[Individual] = []
 
         for gen in range(self.generations):
             # Sort by fitness (descending) to easily find the best
             sorted_population = sorted(population, key=lambda x: x.fitness_score, reverse=True)
 
-            # Update the best solution ever found
+            # Update the best solution for this generation
             current_best = sorted_population[0]
-            if current_best.fitness_score > best_solution_ever.fitness_score:
-                best_solution_ever = current_best
+            best_solutions_by_generation.append(current_best)
 
-            if gen == 0 or (gen + 1) % 20 == 0 or gen == self.generations - 1:
-                print(
-                    f"Generation {gen + 1:4d}: Best Fitness = {best_solution_ever.fitness_score:.2f} | "
-                    f"Bars Used = {best_solution_ever.calculate_required_bars()} | "
-                    f"Total Waste = {best_solution_ever.calculate_total_waste()} | "
-                    f"% Wasted = {best_solution_ever.calculate_percentage_wasted():.2f}%"
-                )
+            print(
+                f"Generation {gen + 1:4d}: Best Fitness = {current_best.fitness_score:.2f} | "
+                f"Bars Used = {current_best.calculate_required_bars()} | "
+                f"Total Waste = {current_best.calculate_total_waste()} | "
+                f"% Wasted = {current_best.calculate_percentage_wasted():.2f}%"
+            )
 
             # 2. Create Next Generation
             next_population: list[Individual] = []
@@ -62,8 +60,8 @@ class CSPGeneticAlgorithm:
             elite = [ind for ind in sorted_population[: self.elitism_size]]
             next_population.extend(elite)
 
-            # Prepare population for selection (fitness, chromosome only)
-            selection_pool = [ind for ind in sorted_population]
+            # Prepare population for selection
+            selection_pool = sorted_population
 
             # Fill the rest of the new population
             while len(next_population) < self.population_size:
@@ -79,7 +77,7 @@ class CSPGeneticAlgorithm:
             population = next_population
 
         print("\nEvolution finished.")
-        return best_solution_ever
+        return best_solutions_by_generation
 
     def __flatten_cuts(self, cuts: dict[int, int]) -> list[int]:
         """Converts the dictionary of cuts into a single list of all cuts."""
@@ -102,7 +100,7 @@ class CSPGeneticAlgorithm:
         Selects a parent using Tournament Selection.
         """
         tournament = random.sample(population, self.tournament_size)
-        # The rated_population is sorted descending by fitness, so the first element is the best
+        # The population is sorted descending by fitness, so the first element is the best
         tournament = sorted(tournament, key=lambda x: x.fitness_score, reverse=True)
         return tournament[0]
 
@@ -244,5 +242,6 @@ def run() -> None:
         CROSSOVER_RATE,
         MUTATION_RATE,
     )
-    solution = solver.run()
-    print_best_solution(solution, BAR_LENGTH)
+    best_solutions_by_generation = solver.run()
+    best_solution = max(best_solutions_by_generation, key=lambda x: x.fitness_score)
+    print_best_solution(best_solution, BAR_LENGTH)
