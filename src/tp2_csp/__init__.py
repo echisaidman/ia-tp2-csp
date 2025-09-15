@@ -4,7 +4,7 @@ from .v1 import run_v1
 from .v2 import run_v2
 from .v3 import run_v3
 
-VERSION_TO_RUN: Literal["v1", "v2", "v3"] = "v3"
+VERSION_TO_RUN: Literal["v1", "v2", "v3"] = "v2"
 
 
 def main() -> None:

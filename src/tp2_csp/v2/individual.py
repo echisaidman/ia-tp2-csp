@@ -28,7 +28,8 @@ class Individual:
             random.shuffle(chromosome)
             self.chromosome = chromosome
 
-        self.cuts_layout = self.__calculate_cuts_layout()
+        # self.cuts_layout = self.__calculate_cuts_layout_best_fit()
+        self.cuts_layout = self.__calculate_cuts_layout_in_order()
         self.bar_remainders = self.__calculate_bar_remainders(self.cuts_layout)
         self.fitness_score = self.__calculate_fitness()
 
@@ -62,7 +63,7 @@ class Individual:
         fitness_score = -total_waste
         return fitness_score
 
-    def __calculate_cuts_layout(self) -> list[list[int]]:
+    def __calculate_cuts_layout_best_fit(self) -> list[list[int]]:
         """Calculates the layout of cuts on bars using a Best-Fit heuristic."""
         bars_cuts: list[list[int]] = []
         bar_remainders: list[int] = []
@@ -90,11 +91,30 @@ class Individual:
 
         return bars_cuts
 
+    def __calculate_cuts_layout_in_order(self) -> list[list[int]]:
+        """Calculates the layout of cuts on bars in order."""
+        bars_cuts: list[list[int]] = []
+
+        # Create an initial empty cuts list
+        bars_cuts.append([])
+
+        for cut in self.chromosome:
+            current_bar_cuts = bars_cuts[-1]
+            current_bar_utilization = sum(current_bar_cuts)
+            current_bar_remainder = self.bar_length - current_bar_utilization
+            if cut <= current_bar_remainder:
+                # Cut fits into the current bar
+                current_bar_cuts.append(cut)
+            else:
+                # Cut doesn't fit into the current bar, start another one
+                bars_cuts.append([cut])
+
+        return bars_cuts
+
     def __calculate_bar_remainders(self, cuts_layout: list[list[int]]) -> list[int]:
         bar_remainders: list[int] = []
         for cuts_per_bar in cuts_layout:
             used_length = sum(cuts_per_bar)
             wasted_length = self.bar_length - used_length
             bar_remainders.append(wasted_length)
-        bar_remainders = bar_remainders
         return bar_remainders
