@@ -1,7 +1,9 @@
 import random
 from math import inf
 
-type Chromosome = list[int]
+from .common_types import Chromosome, CutsLayoutStrategy
+
+type Population = list[Individual]
 
 
 class Individual:
@@ -14,6 +16,7 @@ class Individual:
     def __init__(
         self,
         bar_length: int,
+        cuts_layout_strategy: CutsLayoutStrategy,
         chromosome: Chromosome | None = None,
         all_cuts: list[int] | None = None,
     ) -> None:
@@ -28,8 +31,8 @@ class Individual:
             random.shuffle(chromosome)
             self.chromosome = chromosome
 
-        # self.cuts_layout = self.__calculate_cuts_layout_best_fit()
-        self.cuts_layout = self.__calculate_cuts_layout_in_order()
+        self.cuts_layout_strategy = cuts_layout_strategy
+        self.cuts_layout = self.__calculate_cuts_layout()
         self.bar_remainders = self.__calculate_bar_remainders(self.cuts_layout)
         self.fitness_score = self.__calculate_fitness()
 
@@ -63,53 +66,60 @@ class Individual:
         fitness_score = -total_waste
         return fitness_score
 
-    def __calculate_cuts_layout_best_fit(self) -> list[list[int]]:
-        """Calculates the layout of cuts on bars using a Best-Fit heuristic."""
-        bars_cuts: list[list[int]] = []
-        bar_remainders: list[int] = []
+    def __calculate_cuts_layout(self) -> list[list[int]]:
+        def calculate_cuts_layout_best_fit() -> list[list[int]]:
+            """Calculates the layout of cuts on bars using a Best-Fit heuristic."""
+            bars_cuts: list[list[int]] = []
+            bar_remainders: list[int] = []
 
-        for cut in self.chromosome:
-            best_fit_idx = -1
-            min_remainder = inf
+            for cut in self.chromosome:
+                best_fit_idx = -1
+                min_remainder = inf
 
-            # Find the bar with the tightest fit (Best Fit)
-            for i, remainder in enumerate(bar_remainders):
-                if cut <= remainder:
-                    new_remainder = remainder - cut
-                    if new_remainder < min_remainder:
-                        best_fit_idx = i
-                        min_remainder = new_remainder
+                # Find the bar with the tightest fit (Best Fit)
+                for i, remainder in enumerate(bar_remainders):
+                    if cut <= remainder:
+                        new_remainder = remainder - cut
+                        if new_remainder < min_remainder:
+                            best_fit_idx = i
+                            min_remainder = new_remainder
 
-            if best_fit_idx != -1:
-                # Place in the best-fitting bar
-                bars_cuts[best_fit_idx].append(cut)
-                bar_remainders[best_fit_idx] -= cut
-            else:
-                # If it doesn't fit anywhere, start a new bar
-                bars_cuts.append([cut])
-                bar_remainders.append(self.bar_length - cut)
+                if best_fit_idx != -1:
+                    # Place in the best-fitting bar
+                    bars_cuts[best_fit_idx].append(cut)
+                    bar_remainders[best_fit_idx] -= cut
+                else:
+                    # If it doesn't fit anywhere, start a new bar
+                    bars_cuts.append([cut])
+                    bar_remainders.append(self.bar_length - cut)
 
-        return bars_cuts
+            return bars_cuts
 
-    def __calculate_cuts_layout_in_order(self) -> list[list[int]]:
-        """Calculates the layout of cuts on bars in order."""
-        bars_cuts: list[list[int]] = []
+        def calculate_cuts_layout_in_order() -> list[list[int]]:
+            """Calculates the layout of cuts on bars in order."""
+            bars_cuts: list[list[int]] = []
 
-        # Create an initial empty cuts list
-        bars_cuts.append([])
+            # Create an initial empty cuts list
+            bars_cuts.append([])
 
-        for cut in self.chromosome:
-            current_bar_cuts = bars_cuts[-1]
-            current_bar_utilization = sum(current_bar_cuts)
-            current_bar_remainder = self.bar_length - current_bar_utilization
-            if cut <= current_bar_remainder:
-                # Cut fits into the current bar
-                current_bar_cuts.append(cut)
-            else:
-                # Cut doesn't fit into the current bar, start another one
-                bars_cuts.append([cut])
+            for cut in self.chromosome:
+                current_bar_cuts = bars_cuts[-1]
+                current_bar_utilization = sum(current_bar_cuts)
+                current_bar_remainder = self.bar_length - current_bar_utilization
+                if cut <= current_bar_remainder:
+                    # Cut fits into the current bar
+                    current_bar_cuts.append(cut)
+                else:
+                    # Cut doesn't fit into the current bar, start another one
+                    bars_cuts.append([cut])
 
-        return bars_cuts
+            return bars_cuts
+
+        return (
+            calculate_cuts_layout_in_order()
+            if self.cuts_layout_strategy == "InOrder"
+            else calculate_cuts_layout_best_fit()
+        )
 
     def __calculate_bar_remainders(self, cuts_layout: list[list[int]]) -> list[int]:
         bar_remainders: list[int] = []

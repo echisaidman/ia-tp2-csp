@@ -2,33 +2,27 @@ import pprint
 import random
 from collections import Counter
 
-from .individual import Chromosome, Individual
-
-type Population = list[Individual]
+from .common_types import Chromosome, CutsLayoutStrategy, MutationStrategy
+from .individual import Individual, Population
+from .parameters import Parameters
+from .result import SimulationResult
 
 
 class CSPGeneticAlgorithm:
-    def __init__(
-        self,
-        required_cuts: dict[int, int],
-        population_size: int,
-        generations: int,
-        bar_length: int,
-        elitism_size: int,
-        tournament_size: int,
-        crossover_rate: float,
-        mutation_rate: float,
-    ) -> None:
-        self.all_cuts = self.__flatten_cuts(required_cuts)
-        self.population_size = population_size
-        self.generations = generations
-        self.bar_length = bar_length
-        self.elitism_size = elitism_size
-        self.tournament_size = tournament_size
-        self.crossover_rate = crossover_rate
-        self.mutation_rate = mutation_rate
+    def __init__(self, parameters: Parameters) -> None:
+        self.bar_length = parameters.bar_length
+        self.required_cuts = parameters.required_cuts
+        self.all_cuts = self.__flatten_cuts(self.required_cuts)
+        self.population_size = parameters.population_size
+        self.generations = parameters.generations
+        self.elitism_size = parameters.elitism_size
+        self.tournament_size = parameters.tournament_size
+        self.crossover_rate = parameters.crossover_rate
+        self.mutation_rate = parameters.mutation_rate
+        self.mutation_strategy: MutationStrategy = parameters.mutation_strategy
+        self.cuts_layout_strategy: CutsLayoutStrategy = parameters.cuts_layout_strategy
 
-    def run(self) -> list[Individual]:
+    def run(self) -> SimulationResult:
         """
         Runs the genetic algorithm to find the optimal cutting pattern.
         """
@@ -70,14 +64,27 @@ class CSPGeneticAlgorithm:
 
                 child1, child2 = self.__crossover(parent1, parent2)
 
-                next_population.append(self.__mutate_swap_cuts(child1))
+                next_population.append(self.__mutate(child1))
                 if len(next_population) < self.population_size:
-                    next_population.append(self.__mutate_swap_cuts(child2))
+                    next_population.append(self.__mutate(child2))
 
             population = next_population
 
         print("\nEvolution finished.")
-        return best_solutions_by_generation
+        result = SimulationResult(
+            self.bar_length,
+            self.required_cuts,
+            self.population_size,
+            self.generations,
+            self.tournament_size,
+            self.mutation_rate,
+            self.crossover_rate,
+            self.elitism_size,
+            self.mutation_strategy,
+            self.cuts_layout_strategy,
+            best_solutions_by_generation,
+        )
+        return result
 
     def __flatten_cuts(self, cuts: dict[int, int]) -> list[int]:
         """Converts the dictionary of cuts into a single list of all cuts."""
@@ -92,7 +99,7 @@ class CSPGeneticAlgorithm:
         for _ in range(self.population_size):
             chromosome = self.all_cuts[:]
             random.shuffle(chromosome)
-            population.append(Individual(self.bar_length, chromosome))
+            population.append(Individual(self.bar_length, self.cuts_layout_strategy, chromosome))
         return population
 
     def __selection(self, population: Population) -> Individual:
@@ -122,8 +129,8 @@ class CSPGeneticAlgorithm:
             return genes_from_parent_b_for_child
 
         if random.random() > self.crossover_rate:
-            child1 = Individual(self.bar_length, parent1.chromosome[:])
-            child2 = Individual(self.bar_length, parent2.chromosome[:])
+            child1 = Individual(self.bar_length, self.cuts_layout_strategy, parent1.chromosome[:])
+            child2 = Individual(self.bar_length, self.cuts_layout_strategy, parent2.chromosome[:])
             return child1, child2
 
         size = len(parent1.chromosome)
@@ -157,42 +164,52 @@ class CSPGeneticAlgorithm:
                 child2_chromosome[i] = genes_from_p1_for_child2[p1_idx]
                 p1_idx += 1
 
-        return Individual(self.bar_length, child1_chromosome), Individual(self.bar_length, child2_chromosome)
+        return (
+            Individual(self.bar_length, self.cuts_layout_strategy, child1_chromosome),
+            Individual(self.bar_length, self.cuts_layout_strategy, child2_chromosome),
+        )
 
-    def __mutate_reverse_subsequence(self, individual: Individual) -> Individual:
-        """
-        Performs Inversion Mutation on a chromosome.
-        A random sub-sequence is selected and its order is reversed.
-        """
-        if random.random() > self.mutation_rate:
-            return individual
+    def __mutate(self, individual: Individual) -> Individual:
+        def mutate_reverse_subsequence(individual: Individual) -> Individual:
+            """
+            Performs Inversion Mutation on a chromosome.
+            A random sub-sequence is selected and its order is reversed.
+            """
+            if random.random() > self.mutation_rate:
+                return individual
 
-        start, end = sorted(random.sample(range(len(individual.chromosome)), 2))
-        chromosome = individual.chromosome[:]
+            start, end = sorted(random.sample(range(len(individual.chromosome)), 2))
+            chromosome = individual.chromosome[:]
 
-        # Reverse the sub-sequence
-        sub_sequence = chromosome[start : end + 1]
-        sub_sequence = list(reversed(sub_sequence))
-        chromosome[start : end + 1] = sub_sequence
+            # Reverse the sub-sequence
+            sub_sequence = chromosome[start : end + 1]
+            sub_sequence = list(reversed(sub_sequence))
+            chromosome[start : end + 1] = sub_sequence
 
-        return Individual(self.bar_length, chromosome)
+            return Individual(self.bar_length, self.cuts_layout_strategy, chromosome)
 
-    def __mutate_swap_cuts(self, individual: Individual) -> Individual:
-        if random.random() > self.mutation_rate:
-            return individual
+        def mutate_swap_cuts(individual: Individual) -> Individual:
+            if random.random() > self.mutation_rate:
+                return individual
 
-        chromosome = individual.chromosome[:]
+            chromosome = individual.chromosome[:]
 
-        # Mutate the Individual (randomly swap genes)
-        number_of_mutations = random.randint(len(chromosome) // 10, len(chromosome) // 4)
-        for _ in range(number_of_mutations):
-            i, j = sorted(random.sample(range(len(chromosome)), 2))
-            chromosome[i], chromosome[j] = chromosome[j], chromosome[i]
+            # Mutate the Individual (randomly swap genes)
+            number_of_mutations = random.randint(len(chromosome) // 10, len(chromosome) // 4)
+            for _ in range(number_of_mutations):
+                i, j = sorted(random.sample(range(len(chromosome)), 2))
+                chromosome[i], chromosome[j] = chromosome[j], chromosome[i]
 
-        return Individual(self.bar_length, chromosome)
+            return Individual(self.bar_length, self.cuts_layout_strategy, chromosome)
+
+        return (
+            mutate_swap_cuts(individual)
+            if self.mutation_strategy == "SwapCuts"
+            else mutate_reverse_subsequence(individual)
+        )
 
 
-def print_best_solution(best_solution: Individual, bar_length: int) -> None:
+def print_best_solution(best_solution: Individual) -> None:
     """
     Prints the details of the best solution found.
     """
@@ -212,52 +229,22 @@ def print_best_solution(best_solution: Individual, bar_length: int) -> None:
 
     for i, bar in enumerate(best_solution.cuts_layout):
         bar_sum = sum(bar)
-        waste = bar_length - bar_sum
-        print(f"Bar {i + 1:2d} (Length: {bar_length}):")
+        waste = best_solution.bar_length - bar_sum
+        print(f"Bar {i + 1:2d} (Length: {best_solution.bar_length}):")
         print(f"  Cuts:  {bar}")
         print(f"  Sum:   {bar_sum}")
         print(f"  Waste: {waste}\n")
 
 
-def run() -> None:
-    BAR_LENGTH = 5600
-
-    # Define the required cuts: {length: quantity}
-    REQUIRED_CUTS = {
-        1380: 22,
-        1520: 25,
-        1560: 12,
-        1710: 14,
-        1820: 18,
-        1880: 18,
-        1930: 20,
-        2000: 10,
-        2050: 12,
-        2100: 14,
-        2140: 16,
-        2150: 18,
-        2200: 20,
-    }
-
-    # --- GA Parameters ---
-    POPULATION_SIZE = 300
-    GENERATIONS = 300
-    TOURNAMENT_SIZE = 5
-    MUTATION_RATE = 0.50
-    CROSSOVER_RATE = 0.80
-    ELITISM_SIZE = 5
-
+def run(parameters: Parameters) -> SimulationResult:
     # --- Run the Algorithm ---
-    solver = CSPGeneticAlgorithm(
-        REQUIRED_CUTS,
-        POPULATION_SIZE,
-        GENERATIONS,
-        BAR_LENGTH,
-        ELITISM_SIZE,
-        TOURNAMENT_SIZE,
-        CROSSOVER_RATE,
-        MUTATION_RATE,
-    )
-    best_solutions_by_generation = solver.run()
-    best_solution = max(best_solutions_by_generation, key=lambda x: x.fitness_score)
-    print_best_solution(best_solution, BAR_LENGTH)
+    solver = CSPGeneticAlgorithm(parameters)
+    result = solver.run()
+    return result
+
+
+def run_standalone() -> None:
+    parameters = Parameters()
+    result = run(parameters)
+    best_solution = max(result.best_solutions_by_generation, key=lambda x: x.fitness_score)
+    print_best_solution(best_solution)
