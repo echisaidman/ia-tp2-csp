@@ -31,3 +31,25 @@ class Parameters(BaseModel):
     elitism_size: int = Field(default=0, repr=False)
     mutation_strategy: MutationStrategy = "SwapCuts"
     cuts_layout_strategy: CutsLayoutStrategy = Field(default="InOrder", repr=False)
+    solution_target: int | None = Field(default=None, repr=False)
+
+    def __repr__(self) -> str:
+        """Ignore repr=False fields if they have the default value"""
+        fields_to_show = self.__get_fields_to_show()
+        fields_values = [f"{field_name}={repr(getattr(self, field_name))}" for field_name in fields_to_show]
+        return f"{self.__class__.__name__}({', '.join(fields_values)})"
+
+    def __str__(self) -> str:
+        fields_to_show = self.__get_fields_to_show()
+        fields_values = [f"{field_name}={repr(getattr(self, field_name))}" for field_name in fields_to_show]
+        return f"{' '.join(fields_values)}"
+
+    def __get_fields_to_show(self) -> list[str]:
+        """Ignore repr=False fields if they have the default value"""
+        fields_to_show: list[str] = []
+        for field_name, field_info in Parameters.model_fields.items():
+            current_value = getattr(self, field_name)
+            default_value = field_info.default
+            if field_info.repr or current_value != default_value:
+                fields_to_show.append(field_name)
+        return fields_to_show

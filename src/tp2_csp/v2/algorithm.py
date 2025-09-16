@@ -10,6 +10,7 @@ from .result import SimulationResult
 
 class CSPGeneticAlgorithm:
     def __init__(self, parameters: Parameters) -> None:
+        self.parameters = parameters
         self.bar_length = parameters.bar_length
         self.required_cuts = parameters.required_cuts
         self.all_cuts = self.__flatten_cuts(self.required_cuts)
@@ -21,6 +22,7 @@ class CSPGeneticAlgorithm:
         self.mutation_rate = parameters.mutation_rate
         self.mutation_strategy: MutationStrategy = parameters.mutation_strategy
         self.cuts_layout_strategy: CutsLayoutStrategy = parameters.cuts_layout_strategy
+        self.solution_target = parameters.solution_target
 
     def run(self) -> SimulationResult:
         """
@@ -31,14 +33,18 @@ class CSPGeneticAlgorithm:
 
         population = self.__initialize_population()
         best_solutions_by_generation: list[Individual] = []
+        best_solution_ever: Individual | None = None
 
-        for gen in range(self.generations):
+        gen = 0
+        while not self.__should_stop(gen, best_solution_ever):
             # Sort by fitness (descending) to easily find the best
             sorted_population = sorted(population, key=lambda x: x.fitness_score, reverse=True)
 
             # Update the best solution for this generation
             current_best = sorted_population[0]
             best_solutions_by_generation.append(current_best)
+            if best_solution_ever is None or current_best.fitness_score > best_solution_ever.fitness_score:
+                best_solution_ever = current_best
 
             print(
                 f"Generation {gen + 1:4d}: Best Fitness = {current_best.fitness_score:.2f} | "
@@ -69,21 +75,10 @@ class CSPGeneticAlgorithm:
                     next_population.append(self.__mutate(child2))
 
             population = next_population
+            gen += 1
 
         print("\nEvolution finished.")
-        result = SimulationResult(
-            self.bar_length,
-            self.required_cuts,
-            self.population_size,
-            self.generations,
-            self.tournament_size,
-            self.mutation_rate,
-            self.crossover_rate,
-            self.elitism_size,
-            self.mutation_strategy,
-            self.cuts_layout_strategy,
-            best_solutions_by_generation,
-        )
+        result = SimulationResult(self.parameters, gen, best_solutions_by_generation)
         return result
 
     def __flatten_cuts(self, cuts: dict[int, int]) -> list[int]:
@@ -101,6 +96,16 @@ class CSPGeneticAlgorithm:
             random.shuffle(chromosome)
             population.append(Individual(self.bar_length, self.cuts_layout_strategy, chromosome))
         return population
+
+    def __should_stop(self, generation: int, best_solution_ever: Individual | None) -> bool:
+        # Stop if # of generations has exceeded the limit or if we have achieved the target
+        exceeded_generations = generation >= self.generations
+        met_target = (
+            best_solution_ever.calculate_required_bars() <= self.solution_target
+            if best_solution_ever is not None and self.solution_target is not None
+            else False
+        )
+        return exceeded_generations or met_target
 
     def __selection(self, population: Population) -> Individual:
         """
@@ -237,7 +242,6 @@ def print_best_solution(best_solution: Individual) -> None:
 
 
 def run(parameters: Parameters) -> SimulationResult:
-    # --- Run the Algorithm ---
     solver = CSPGeneticAlgorithm(parameters)
     result = solver.run()
     return result
