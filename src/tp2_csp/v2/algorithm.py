@@ -2,7 +2,7 @@ import pprint
 import random
 from collections import Counter
 
-from .individual import Individual
+from .individual import Chromosome, Individual
 
 type Population = list[Individual]
 
@@ -70,9 +70,9 @@ class CSPGeneticAlgorithm:
 
                 child1, child2 = self.__crossover(parent1, parent2)
 
-                next_population.append(self.__mutate(child1))
+                next_population.append(self.__mutate_swap_cuts(child1))
                 if len(next_population) < self.population_size:
-                    next_population.append(self.__mutate(child2))
+                    next_population.append(self.__mutate_swap_cuts(child2))
 
             population = next_population
 
@@ -100,15 +100,27 @@ class CSPGeneticAlgorithm:
         Selects a parent using Tournament Selection.
         """
         tournament = random.sample(population, self.tournament_size)
-        # The population is sorted descending by fitness, so the first element is the best
-        tournament = sorted(tournament, key=lambda x: x.fitness_score, reverse=True)
-        return tournament[0]
+        best = max(tournament, key=lambda x: x.fitness_score)
+        return best
 
     def __crossover(self, parent1: Individual, parent2: Individual) -> tuple[Individual, Individual]:
         """
         Performs Ordered Crossover (OX1) to create two children.
         This preserves the permutation nature of the chromosomes.
         """
+
+        def get_unused_cuts_for_child(
+            used_cuts_from_parent_a: list[int], chromosome_from_parent_b: Chromosome
+        ) -> list[int]:
+            used_cuts_counter = Counter(used_cuts_from_parent_a)
+            genes_from_parent_b_for_child: list[int] = []
+            for item in chromosome_from_parent_b:
+                if used_cuts_counter[item] > 0:
+                    used_cuts_counter[item] -= 1
+                else:
+                    genes_from_parent_b_for_child.append(item)
+            return genes_from_parent_b_for_child
+
         if random.random() > self.crossover_rate:
             child1 = Individual(self.bar_length, parent1.chromosome[:])
             child2 = Individual(self.bar_length, parent2.chromosome[:])
@@ -126,14 +138,9 @@ class CSPGeneticAlgorithm:
         child2_chromosome[start : end + 1] = slice_from_p2
 
         # Fill remaining genes for Child 1 (from Parent 2)
-        p1_slice_counter = Counter(slice_from_p1)
-        genes_from_p2_for_child1: list[int] = []
-        for item in parent2.chromosome:
-            if p1_slice_counter[item] > 0:
-                p1_slice_counter[item] -= 1
-            else:
-                genes_from_p2_for_child1.append(item)
-
+        genes_from_p2_for_child1 = get_unused_cuts_for_child(
+            used_cuts_from_parent_a=slice_from_p1, chromosome_from_parent_b=parent2.chromosome
+        )
         p2_idx = 0
         for i in range(size):
             if child1_chromosome[i] == -1:
@@ -141,23 +148,18 @@ class CSPGeneticAlgorithm:
                 p2_idx += 1
 
         # Fill remaining genes for Child 2 (from Parent 1)
-        p2_slice_counter = Counter(slice_from_p2)
-        genes_from_p1_for_child1: list[int] = []
-        for item in parent1.chromosome:
-            if p2_slice_counter[item] > 0:
-                p2_slice_counter[item] -= 1
-            else:
-                genes_from_p1_for_child1.append(item)
-
+        genes_from_p1_for_child2 = get_unused_cuts_for_child(
+            used_cuts_from_parent_a=slice_from_p2, chromosome_from_parent_b=parent1.chromosome
+        )
         p1_idx = 0
         for i in range(size):
             if child2_chromosome[i] == -1:
-                child2_chromosome[i] = genes_from_p1_for_child1[p1_idx]
+                child2_chromosome[i] = genes_from_p1_for_child2[p1_idx]
                 p1_idx += 1
 
         return Individual(self.bar_length, child1_chromosome), Individual(self.bar_length, child2_chromosome)
 
-    def __mutate(self, individual: Individual) -> Individual:
+    def __mutate_reverse_subsequence(self, individual: Individual) -> Individual:
         """
         Performs Inversion Mutation on a chromosome.
         A random sub-sequence is selected and its order is reversed.
@@ -172,6 +174,20 @@ class CSPGeneticAlgorithm:
         sub_sequence = chromosome[start : end + 1]
         sub_sequence = list(reversed(sub_sequence))
         chromosome[start : end + 1] = sub_sequence
+
+        return Individual(self.bar_length, chromosome)
+
+    def __mutate_swap_cuts(self, individual: Individual) -> Individual:
+        if random.random() > self.mutation_rate:
+            return individual
+
+        chromosome = individual.chromosome[:]
+
+        # Mutate the Individual (randomly swap genes)
+        number_of_mutations = random.randint(len(chromosome) // 10, len(chromosome) // 4)
+        for _ in range(number_of_mutations):
+            i, j = sorted(random.sample(range(len(chromosome)), 2))
+            chromosome[i], chromosome[j] = chromosome[j], chromosome[i]
 
         return Individual(self.bar_length, chromosome)
 
