@@ -16,8 +16,8 @@ class CSPGeneticAlgorithm:
         self.all_cuts = self.__flatten_cuts(self.required_cuts)
         self.population_size = parameters.population_size
         self.generations = parameters.generations
-        self.elitism_size = parameters.elitism_size
-        self.tournament_size = parameters.tournament_size
+        self.elitism_size = min(parameters.elitism_size, self.population_size)
+        self.tournament_size = min(parameters.tournament_size, self.population_size)
         self.crossover_rate = parameters.crossover_rate
         self.mutation_rate = parameters.mutation_rate
         self.mutation_strategy: MutationStrategy = parameters.mutation_strategy
