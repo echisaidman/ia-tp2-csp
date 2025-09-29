@@ -131,6 +131,7 @@ class CSPGeneticAlgorithm:
                     used_cuts_counter[item] -= 1
                 else:
                     genes_from_parent_b_for_child.append(item)
+            assert len(genes_from_parent_b_for_child) == len(chromosome_from_parent_b) - len(used_cuts_from_parent_a)
             return genes_from_parent_b_for_child
 
         if random.random() > self.crossover_rate:
@@ -139,7 +140,8 @@ class CSPGeneticAlgorithm:
             return child1, child2
 
         size = len(parent1.chromosome)
-        child1_chromosome, child2_chromosome = [-1] * size, [-1] * size
+        child1_chromosome = [-1] * size
+        child2_chromosome = [-1] * size
 
         start, end = sorted(random.sample(range(size), 2))
 
@@ -158,6 +160,7 @@ class CSPGeneticAlgorithm:
             if child1_chromosome[i] == -1:
                 child1_chromosome[i] = genes_from_p2_for_child1[p2_idx]
                 p2_idx += 1
+        assert len([cut for cut in child1_chromosome if cut != -1]) == size
 
         # Fill remaining genes for Child 2 (from Parent 1)
         genes_from_p1_for_child2 = get_unused_cuts_for_child(
@@ -168,6 +171,7 @@ class CSPGeneticAlgorithm:
             if child2_chromosome[i] == -1:
                 child2_chromosome[i] = genes_from_p1_for_child2[p1_idx]
                 p1_idx += 1
+        assert len([cut for cut in child2_chromosome if cut != -1]) == size
 
         return (
             Individual(self.bar_length, self.cuts_layout_strategy, child1_chromosome),
@@ -248,7 +252,15 @@ def run(parameters: Parameters) -> SimulationResult:
 
 
 def run_standalone() -> None:
-    parameters = Parameters()
+    parameters = Parameters(
+        population_size=500,
+        generations=3_000,
+        # solution_target=76,
+        tournament_size=20,
+        mutation_rate=0.60,
+        crossover_rate=0.80,
+        mutation_strategy="ReverseSubsequence",
+    )
     result = run(parameters)
     best_solution = max(result.best_solutions_by_generation, key=lambda x: x.fitness_score)
     print_best_solution(best_solution)
