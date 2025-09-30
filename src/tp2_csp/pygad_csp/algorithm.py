@@ -6,6 +6,8 @@ import numpy as np
 import numpy.typing as npt
 import pygad
 
+from tp2_csp.pygad_csp.generalized_order_crossover import generalized_order_crossover
+
 STOCK_LENGTH = 5600
 REQUIRED_CUTS = {
     1380: 22,
@@ -152,7 +154,10 @@ def on_generation(ga_instance: pygad.GA):
 
 
 selection_type: Literal["sss", "rws", "rank", "tournament"] = "tournament"
-crossover_type: Callable[..., Any] = ordered_crossover
+crossover_type: Callable[..., Any] = (
+    # ordered_crossover
+    generalized_order_crossover
+)
 mutation_type: Literal["swap", "inversion"] | Callable[[npt.NDArray[np.int64], pygad.GA], npt.NDArray[np.int64]] = (
     # inverse_mutation
     # "swap"
@@ -174,7 +179,7 @@ ga_instance = pygad.GA(
     crossover_type=crossover_type,
     mutation_type=mutation_type,
     # mutation_percent_genes=10,  # 10% of genes will be swapped
-    mutation_percent_genes=20,
+    # mutation_percent_genes=20,
     # Stop if fitness doesn't improve for 20 generations
     # stop_criteria="saturate_20",
     on_generation=on_generation,
