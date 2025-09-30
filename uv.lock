@@ -269,6 +269,15 @@ wheels = [
 ]
 
 [[package]]
+name = "cloudpickle"
+version = "3.1.1"
+source = { registry = "https://artifactory.chevron.com/artifactory/api/pypi/pypi-remote/simple" }
+sdist = { url = "https://artifactory.chevron.com/artifactory/api/pypi/pypi-remote/packages/packages/52/39/069100b84d7418bc358d81669d5748efb14b9cceacd2f9c75f550424132f/cloudpickle-3.1.1.tar.gz", hash = "sha256:b216fa8ae4019d5482a8ac3c95d8f6346115d8835911fd4aefd1a445e4242c64" }
+wheels = [
+    { url = "https://artifactory.chevron.com/artifactory/api/pypi/pypi-remote/packages/packages/7e/e8/64c37fadfc2816a7701fa8a6ed8d87327c7d54eacfbfb6edab14a2f2be75/cloudpickle-3.1.1-py3-none-any.whl", hash = "sha256:c8c5a44295039331ee9dad40ba100a9c7297b6f988e50e87ccdf3765a668350e" },
+]
+
+[[package]]
 name = "colorama"
 version = "0.4.6"
 source = { registry = "https://artifactory.chevron.com/artifactory/api/pypi/pypi-remote/simple" }
@@ -1460,6 +1469,20 @@ wheels = [
 ]
 
 [[package]]
+name = "pygad"
+version = "3.5.0"
+source = { registry = "https://artifactory.chevron.com/artifactory/api/pypi/pypi-remote/simple" }
+dependencies = [
+    { name = "cloudpickle" },
+    { name = "matplotlib" },
+    { name = "numpy" },
+]
+sdist = { url = "https://artifactory.chevron.com/artifactory/api/pypi/pypi-remote/packages/packages/e8/d0/931c42ef763c9b2f5d6dc66d082df4a977f8deb415cf802c031551fb39b2/pygad-3.5.0.tar.gz", hash = "sha256:18c5b7ad274375206d7b78adc63fc9725a2d655b90c8296e14cc03c0f535797e" }
+wheels = [
+    { url = "https://artifactory.chevron.com/artifactory/api/pypi/pypi-remote/packages/packages/e9/8d/ddc7746eecc1f53dba43b757bc5e87614ee4ea1712ad9157cf5aa3772e1b/pygad-3.5.0-py3-none-any.whl", hash = "sha256:80d155f09f7369c305cf4d0ac5279d0a0f5a98cb935b1ce0d8413865c41b690d" },
+]
+
+[[package]]
 name = "pygments"
 version = "2.19.2"
 source = { registry = "https://artifactory.chevron.com/artifactory/api/pypi/pypi-remote/simple" }
@@ -1849,6 +1872,7 @@ dependencies = [
     { name = "jupyter" },
     { name = "matplotlib" },
     { name = "pydantic" },
+    { name = "pygad" },
 ]
 
 [package.metadata]
@@ -1856,6 +1880,7 @@ requires-dist = [
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "matplotlib", specifier = ">=3.10.6" },
     { name = "pydantic", specifier = ">=2.11.9" },
+    { name = "pygad", specifier = ">=3.5.0" },
 ]
 
 [[package]]
