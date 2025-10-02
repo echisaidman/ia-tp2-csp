@@ -52,12 +52,7 @@ class Individual:
 
     def __calculate_fitness(self) -> float:
         """
-        Calculates the fitness of a chromosome using a First Fit heuristic.
-
         Fitness is inversely proportional to the total waste.
-
-        Returns:
-            A tuple containing: (fitness_score, layout_of_bars, num_bars_used, total_waste).
         """
 
         total_waste = self.calculate_total_waste()

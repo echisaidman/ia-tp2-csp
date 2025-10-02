@@ -2,6 +2,7 @@ from typing import Literal
 
 from pydantic import BaseModel, Field, PositiveInt
 
+type SelectionStrategy = Literal["Tournament", "Ranking"]
 type MutationStrategy = Literal["SwapCuts", "ReverseSubsequence"]
 type CutsLayoutStrategy = Literal["InOrder", "BestFit"]
 
@@ -30,6 +31,7 @@ class Parameters(BaseModel):
     population_size: int = 500
     generations: int = 500
     tournament_size: int = 5
+    selection_strategy: SelectionStrategy = "Tournament"
     selection_size: int = 100  # How many individuals we will have in the selection population
     mutation_rate: float = 0.50
     percentage_of_individuals_to_mutate: float = 0.20

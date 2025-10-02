@@ -95,14 +95,22 @@ class CSPGeneticAlgorithm:
 
     def __get_population_after_selection(self, population: Population) -> Population:
         """
-        Selects parents using Tournament Selection.
+        Selects parents using Tournament Selection or Ranking Selection.
         """
-        selection_population: Population = []
-        for _ in range(self.parameters.selection_size):
-            tournament = random.sample(population, self.tournament_size)
-            best = max(tournament, key=lambda x: x.fitness_score)
-            selection_population.append(best)
-        return selection_population
+
+        def tournament_selection() -> Population:
+            selection_population: Population = []
+            for _ in range(self.parameters.selection_size):
+                tournament = random.sample(population, self.tournament_size)
+                best = max(tournament, key=lambda x: x.fitness_score)
+                selection_population.append(best)
+            return selection_population
+
+        def ranking_selection() -> Population:
+            ordered_population = sorted(population, key=lambda x: x.fitness_score, reverse=True)
+            return ordered_population[: self.parameters.selection_size]
+
+        return tournament_selection() if self.parameters.selection_strategy == "Tournament" else ranking_selection()
 
     def __get_population_after_crossover(self, selection_pool: Population) -> Population:
         children: Population = []
