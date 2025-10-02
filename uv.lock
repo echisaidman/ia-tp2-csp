@@ -1873,6 +1873,7 @@ dependencies = [
     { name = "matplotlib" },
     { name = "pydantic" },
     { name = "pygad" },
+    { name = "tzdata" },
 ]
 
 [package.metadata]
@@ -1881,6 +1882,7 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.10.6" },
     { name = "pydantic", specifier = ">=2.11.9" },
     { name = "pygad", specifier = ">=3.5.0" },
+    { name = "tzdata", specifier = ">=2025.2" },
 ]
 
 [[package]]
@@ -1920,6 +1922,15 @@ dependencies = [
 sdist = { url = "https://artifactory.chevron.com/artifactory/api/pypi/pypi-remote/packages/packages/f8/b1/0c11f5058406b3af7609f121aaa6b609744687f1d158b3c3a5bf4cc94238/typing_inspection-0.4.1.tar.gz", hash = "sha256:6ae134cc0203c33377d43188d4064e9b357dba58cff3185f22924610e70a9d28" }
 wheels = [
     { url = "https://artifactory.chevron.com/artifactory/api/pypi/pypi-remote/packages/packages/17/69/cd203477f944c353c31bade965f880aa1061fd6bf05ded0726ca845b6ff7/typing_inspection-0.4.1-py3-none-any.whl", hash = "sha256:389055682238f53b04f7badcb49b989835495a96700ced5dab2d8feae4b26f51" },
+]
+
+[[package]]
+name = "tzdata"
+version = "2025.2"
+source = { registry = "https://artifactory.chevron.com/artifactory/api/pypi/pypi-remote/simple" }
+sdist = { url = "https://artifactory.chevron.com/artifactory/api/pypi/pypi-remote/packages/packages/95/32/1a225d6164441be760d75c2c42e2780dc0873fe382da3e98a2e1e48361e5/tzdata-2025.2.tar.gz", hash = "sha256:b60a638fcc0daffadf82fe0f57e53d06bdec2f36c4df66280ae79bce6bd6f2b9" }
+wheels = [
+    { url = "https://artifactory.chevron.com/artifactory/api/pypi/pypi-remote/packages/packages/5c/23/c7abc0ca0a1526a0774eca151daeb8de62ec457e77262b66b359c3c7679e/tzdata-2025.2-py2.py3-none-any.whl", hash = "sha256:1a403fada01ff9221ca8044d701868fa132215d84beb92242d9acd2147f667a8" },
 ]
 
 [[package]]

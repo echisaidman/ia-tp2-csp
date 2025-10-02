@@ -1,11 +1,10 @@
-from dataclasses import dataclass
+from pydantic import BaseModel
 
 from .individual import Individual
 from .parameters import Parameters
 
 
-@dataclass
-class SimulationResult:
+class SimulationResult(BaseModel):
     parameters: Parameters
     generations: int
     best_solutions_by_generation: list[Individual]

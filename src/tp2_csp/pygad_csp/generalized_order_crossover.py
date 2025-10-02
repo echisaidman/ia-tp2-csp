@@ -36,24 +36,19 @@ def _create_child(
     parent_to_copy_slice: list[int], parent_to_fill_missing_elements: list[int], slice_start: int, slice_end: int
 ) -> list[int]:
     size = len(parent_to_copy_slice)
-
-    # Initialize child with None placeholders
     child: list[int | None] = [None] * size
 
-    # 2. Copy the crossover segment from parents to child
+    # Copy the crossover segment from parent to child
     slice_from_parent = parent_to_copy_slice[slice_start : slice_end + 1]
     child[slice_start : slice_end + 1] = slice_from_parent
 
-    # 3. Get the elements to fill the remaining slots
+    # Fill the remaining slots in the child
     fill_elements = _get_fill_elements(parent_to_fill_missing_elements, slice_from_parent)
-
-    # 4. Fill the remaining slots in the child
     current_pos = (slice_end + 1) % size
     fill_idx = 0
-    while None in child:
-        if child[current_pos] is None:
-            child[current_pos] = fill_elements[fill_idx]
-            fill_idx += 1
+    while current_pos > slice_end or current_pos < slice_start:
+        child[current_pos] = fill_elements[fill_idx]
+        fill_idx += 1
         current_pos = (current_pos + 1) % size
 
     filled_child = [cut for cut in child if cut is not None]
@@ -63,7 +58,7 @@ def _create_child(
 
 def generalized_order_crossover(
     parents: npt.NDArray[np.int64],
-    offspring_size,
+    offspring_size: tuple[int, int],
     ga_instance: pygad.GA,
 ) -> npt.NDArray[np.int64]:
     """
@@ -82,7 +77,7 @@ def generalized_order_crossover(
 
         size = len(parent1)
 
-        # 1. Select two random crossover points
+        # Select two random crossover points
         start, end = sorted(random.sample(range(size), 2))
 
         child1 = _create_child(parent1, parent2, start, end)

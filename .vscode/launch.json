@@ -5,13 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug",
+            "name": "Debug with uv",
             "type": "debugpy",
             "request": "launch",
             "module": "src.tp2_csp",
             // "program": "uv",
             // "args": ["run", "tp2-csp"],
             "console": "integratedTerminal",
-        }
+        },
     ]
 }

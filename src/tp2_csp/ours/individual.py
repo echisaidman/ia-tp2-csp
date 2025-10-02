@@ -1,9 +1,11 @@
 import random
+from collections import Counter
 from math import inf
 
-from .common_types import Chromosome, CutsLayoutStrategy
+from .parameters import CutsLayoutStrategy
 
 type Population = list[Individual]
+type Chromosome = list[int]
 
 
 class Individual:
@@ -128,3 +130,15 @@ class Individual:
             wasted_length = self.bar_length - used_length
             bar_remainders.append(wasted_length)
         return bar_remainders
+
+    def get_missing_cuts(self, used_cuts: list[int]) -> list[int]:
+        """Returns the cuts from self that haven't been used yet, in order."""
+        used_cuts_counter = Counter(used_cuts)
+        missing_cuts: list[int] = []
+        for cut in self.chromosome:
+            if used_cuts_counter[cut] > 0:
+                used_cuts_counter[cut] -= 1
+            else:
+                missing_cuts.append(cut)
+        assert len(missing_cuts) == len(self.chromosome) - len(used_cuts)
+        return missing_cuts

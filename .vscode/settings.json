@@ -5,7 +5,8 @@
         "**/.hg": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
-        ".venv": true
+        ".venv": true,
+        "**/__pycache__": true
     },
     "[python]": {
         "diffEditor.ignoreTrimWhitespace": false,
@@ -20,6 +21,14 @@
         "editor.codeActionsOnSave": {
             "source.organizeImports.ruff": "explicit",
             "source.unusedImports": "explicit"
-        }
-    }
+        },
+    },
+    "notebook.formatOnSave.enabled": true,
+    "notebook.defaultFormatter": "charliermarsh.ruff",
+    "notebook.codeActionsOnSave": {
+        "notebook.source.fixAll": "explicit",
+        // "notebook.source.organizeImports": "explicit",
+        "notebook.source.organizeImports.ruff": "explicit"
+    },
+    "python.analysis.typeCheckingMode": "standard"
 }

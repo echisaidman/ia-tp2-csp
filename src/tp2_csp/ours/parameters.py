@@ -1,6 +1,10 @@
+from typing import Literal
+
 from pydantic import BaseModel, Field, PositiveInt
 
-from .common_types import CutsLayoutStrategy, MutationStrategy
+type MutationStrategy = Literal["SwapCuts", "ReverseSubsequence"]
+type CutsLayoutStrategy = Literal["InOrder", "BestFit"]
+
 
 DEFAULT_BAR_LENGTH = 5600
 DEFAULT_REQUIRED_CUTS = {
@@ -26,9 +30,9 @@ class Parameters(BaseModel):
     population_size: int = 500
     generations: int = 500
     tournament_size: int = 5
+    selection_size: int = 100  # How many individuals we will have in the selection population
     mutation_rate: float = 0.50
-    crossover_rate: float = 0.80
-    elitism_size: int = Field(default=0, repr=False)
+    percentage_of_individuals_to_mutate: float = 0.20
     mutation_strategy: MutationStrategy = "SwapCuts"
     cuts_layout_strategy: CutsLayoutStrategy = Field(default="InOrder", repr=False)
     solution_target: int | None = Field(default=None, repr=False)
