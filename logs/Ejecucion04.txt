@@ -1,0 +1,890 @@
+Gen    1 | Barras usadas = 85 | Desperdicio = 68840 | % Desperdiciado = 14.46%
+Gen    2 | Barras usadas = 84 | Desperdicio = 63240 | % Desperdiciado = 13.44%
+Gen    3 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen    4 | Barras usadas = 84 | Desperdicio = 63240 | % Desperdiciado = 13.44%
+Gen    5 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen    6 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen    7 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen    8 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen    9 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen   10 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen   11 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen   12 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen   13 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen   14 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen   15 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   16 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen   17 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   18 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   19 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   20 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   21 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   22 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   23 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   24 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   25 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   26 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   27 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   28 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   29 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   30 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   31 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   32 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   33 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   34 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   35 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   36 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   37 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   38 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   39 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   40 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   41 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   42 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   43 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   44 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   45 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   46 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   47 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   48 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   49 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   50 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   51 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   52 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   53 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   54 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   55 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen   56 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   57 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   58 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   59 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   60 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   61 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   62 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   63 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   64 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   65 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen   66 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen   67 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen   68 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   69 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen   70 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen   71 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen   72 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen   73 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   74 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   75 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   76 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   77 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   78 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   79 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   80 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   81 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen   82 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   83 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   84 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   85 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   86 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   87 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   88 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   89 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   90 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   91 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   92 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   93 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   94 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   95 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   96 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   97 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   98 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen   99 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen  100 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen  101 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen  102 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  103 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen  104 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen  105 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen  106 | Barras usadas = 78 | Desperdicio = 29640 | % Desperdiciado = 6.79%
+Gen  107 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  108 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  109 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  110 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  111 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  112 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  113 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  114 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  115 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  116 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  117 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  118 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  119 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  120 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  121 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  122 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  123 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  124 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  125 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  126 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  127 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  128 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  129 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  130 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  131 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  132 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  133 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  134 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  135 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  136 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  137 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  138 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  139 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  140 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  141 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  142 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  143 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  144 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  145 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  146 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  147 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  148 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  149 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  150 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  151 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  152 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  153 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  154 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  155 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  156 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  157 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  158 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  159 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  160 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  161 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  162 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  163 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  164 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  165 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  166 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  167 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  168 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  169 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  170 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  171 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  172 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  173 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  174 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  175 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  176 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  177 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  178 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  179 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  180 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  181 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  182 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  183 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  184 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  185 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  186 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  187 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  188 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  189 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  190 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  191 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  192 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  193 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  194 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  195 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  196 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  197 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  198 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  199 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  200 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  201 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  202 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  203 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  204 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  205 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  206 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  207 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  208 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  209 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  210 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  211 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  212 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  213 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  214 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  215 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  216 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  217 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  218 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  219 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  220 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  221 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  222 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  223 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  224 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  225 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  226 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  227 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  228 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  229 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  230 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  231 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  232 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  233 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  234 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  235 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  236 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  237 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  238 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  239 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  240 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  241 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  242 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  243 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  244 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  245 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  246 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  247 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  248 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  249 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  250 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  251 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  252 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  253 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  254 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  255 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  256 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  257 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  258 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  259 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  260 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  261 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  262 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  263 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  264 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  265 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  266 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  267 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  268 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  269 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  270 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  271 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  272 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  273 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  274 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  275 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  276 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  277 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  278 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  279 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  280 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  281 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  282 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  283 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  284 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  285 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  286 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  287 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  288 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  289 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  290 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  291 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  292 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  293 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  294 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  295 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  296 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  297 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  298 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  299 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  300 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  301 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  302 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  303 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  304 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  305 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  306 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  307 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  308 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  309 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  310 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  311 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  312 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  313 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  314 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  315 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  316 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  317 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  318 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  319 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  320 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  321 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  322 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  323 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  324 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  325 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  326 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  327 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  328 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  329 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  330 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  331 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  332 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  333 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  334 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  335 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  336 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  337 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  338 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  339 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  340 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  341 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  342 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  343 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  344 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  345 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  346 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  347 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  348 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  349 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  350 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  351 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  352 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  353 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  354 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  355 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  356 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  357 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  358 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  359 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  360 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  361 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  362 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  363 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  364 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  365 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  366 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  367 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  368 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  369 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  370 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  371 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  372 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  373 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  374 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  375 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  376 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  377 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  378 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  379 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  380 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  381 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  382 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  383 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  384 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  385 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  386 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  387 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  388 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  389 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  390 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  391 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  392 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  393 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  394 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  395 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  396 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  397 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  398 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  399 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  400 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  401 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  402 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  403 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  404 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  405 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  406 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  407 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  408 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  409 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  410 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  411 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  412 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  413 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  414 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  415 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  416 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  417 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  418 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  419 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  420 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  421 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  422 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  423 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  424 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  425 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  426 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  427 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  428 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  429 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  430 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  431 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  432 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  433 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  434 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  435 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  436 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  437 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  438 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  439 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  440 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  441 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  442 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  443 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  444 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  445 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  446 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  447 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  448 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  449 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  450 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  451 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  452 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  453 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  454 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  455 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  456 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  457 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  458 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  459 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  460 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  461 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  462 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  463 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  464 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  465 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  466 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  467 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  468 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  469 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  470 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  471 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  472 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  473 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  474 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  475 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  476 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  477 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  478 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  479 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  480 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  481 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  482 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  483 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  484 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  485 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  486 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  487 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  488 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  489 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  490 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  491 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  492 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  493 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  494 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  495 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  496 | Barras usadas = 76 | Desperdicio = 18440 | % Desperdiciado = 4.33%
+Gen  497 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  498 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  499 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+Gen  500 | Barras usadas = 77 | Desperdicio = 24040 | % Desperdiciado = 5.58%
+
+
+=================================
+    Mejor solucion encontrada    
+=================================
+Barras requeridas: 76
+Desperdicio total: 18440 unidades
+% Desperdiciado: 4.33%
+---------------------------------
+
+Barra  1 (Tamaño: 5600 unidades):
+    Cortes:  [2000, 1520, 1560]
+    Utilizado:   5080 unidades
+    Desperdicio: 520 unidades
+
+Barra  2 (Tamaño: 5600 unidades):
+    Cortes:  [1820, 1560, 2050]
+    Utilizado:   5430 unidades
+    Desperdicio: 170 unidades
+
+Barra  3 (Tamaño: 5600 unidades):
+    Cortes:  [1820, 1380, 1820]
+    Utilizado:   5020 unidades
+    Desperdicio: 580 unidades
+
+Barra  4 (Tamaño: 5600 unidades):
+    Cortes:  [1560, 1820, 1560]
+    Utilizado:   4940 unidades
+    Desperdicio: 660 unidades
+
+Barra  5 (Tamaño: 5600 unidades):
+    Cortes:  [2200, 1520, 1520]
+    Utilizado:   5240 unidades
+    Desperdicio: 360 unidades
+
+Barra  6 (Tamaño: 5600 unidades):
+    Cortes:  [2000, 1520, 1520]
+    Utilizado:   5040 unidades
+    Desperdicio: 560 unidades
+
+Barra  7 (Tamaño: 5600 unidades):
+    Cortes:  [1520, 1880, 2150]
+    Utilizado:   5550 unidades
+    Desperdicio: 50 unidades
+
+Barra  8 (Tamaño: 5600 unidades):
+    Cortes:  [1930, 1380, 2150]
+    Utilizado:   5460 unidades
+    Desperdicio: 140 unidades
+
+Barra  9 (Tamaño: 5600 unidades):
+    Cortes:  [1520, 1880, 2150]
+    Utilizado:   5550 unidades
+    Desperdicio: 50 unidades
+
+Barra 10 (Tamaño: 5600 unidades):
+    Cortes:  [1560, 1930, 2100]
+    Utilizado:   5590 unidades
+    Desperdicio: 10 unidades
+
+Barra 11 (Tamaño: 5600 unidades):
+    Cortes:  [1880, 1520, 2150]
+    Utilizado:   5550 unidades
+    Desperdicio: 50 unidades
+
+Barra 12 (Tamaño: 5600 unidades):
+    Cortes:  [2140, 1520, 1880]
+    Utilizado:   5540 unidades
+    Desperdicio: 60 unidades
+
+Barra 13 (Tamaño: 5600 unidades):
+    Cortes:  [1710, 2000, 1880]
+    Utilizado:   5590 unidades
+    Desperdicio: 10 unidades
+
+Barra 14 (Tamaño: 5600 unidades):
+    Cortes:  [1520, 2140, 1520]
+    Utilizado:   5180 unidades
+    Desperdicio: 420 unidades
+
+Barra 15 (Tamaño: 5600 unidades):
+    Cortes:  [1380, 2150, 1930]
+    Utilizado:   5460 unidades
+    Desperdicio: 140 unidades
+
+Barra 16 (Tamaño: 5600 unidades):
+    Cortes:  [2150, 2100]
+    Utilizado:   4250 unidades
+    Desperdicio: 1350 unidades
+
+Barra 17 (Tamaño: 5600 unidades):
+    Cortes:  [2050, 1710, 1820]
+    Utilizado:   5580 unidades
+    Desperdicio: 20 unidades
+
+Barra 18 (Tamaño: 5600 unidades):
+    Cortes:  [1380, 1930, 2140]
+    Utilizado:   5450 unidades
+    Desperdicio: 150 unidades
+
+Barra 19 (Tamaño: 5600 unidades):
+    Cortes:  [2150, 1820, 1560]
+    Utilizado:   5530 unidades
+    Desperdicio: 70 unidades
+
+Barra 20 (Tamaño: 5600 unidades):
+    Cortes:  [2000, 1520, 2050]
+    Utilizado:   5570 unidades
+    Desperdicio: 30 unidades
+
+Barra 21 (Tamaño: 5600 unidades):
+    Cortes:  [1380, 1820, 2200]
+    Utilizado:   5400 unidades
+    Desperdicio: 200 unidades
+
+Barra 22 (Tamaño: 5600 unidades):
+    Cortes:  [2200, 1520, 1710]
+    Utilizado:   5430 unidades
+    Desperdicio: 170 unidades
+
+Barra 23 (Tamaño: 5600 unidades):
+    Cortes:  [1820, 1710, 2000]
+    Utilizado:   5530 unidades
+    Desperdicio: 70 unidades
+
+Barra 24 (Tamaño: 5600 unidades):
+    Cortes:  [1380, 1930, 2140]
+    Utilizado:   5450 unidades
+    Desperdicio: 150 unidades
+
+Barra 25 (Tamaño: 5600 unidades):
+    Cortes:  [1820, 1560, 2200]
+    Utilizado:   5580 unidades
+    Desperdicio: 20 unidades
+
+Barra 26 (Tamaño: 5600 unidades):
+    Cortes:  [2050, 1710, 1820]
+    Utilizado:   5580 unidades
+    Desperdicio: 20 unidades
+
+Barra 27 (Tamaño: 5600 unidades):
+    Cortes:  [1380, 1930, 2200]
+    Utilizado:   5510 unidades
+    Desperdicio: 90 unidades
+
+Barra 28 (Tamaño: 5600 unidades):
+    Cortes:  [1880, 1710, 2000]
+    Utilizado:   5590 unidades
+    Desperdicio: 10 unidades
+
+Barra 29 (Tamaño: 5600 unidades):
+    Cortes:  [1880, 1520, 2150]
+    Utilizado:   5550 unidades
+    Desperdicio: 50 unidades
+
+Barra 30 (Tamaño: 5600 unidades):
+    Cortes:  [2140, 1520, 1930]
+    Utilizado:   5590 unidades
+    Desperdicio: 10 unidades
+
+Barra 31 (Tamaño: 5600 unidades):
+    Cortes:  [2100, 1380, 2050]
+    Utilizado:   5530 unidades
+    Desperdicio: 70 unidades
+
+Barra 32 (Tamaño: 5600 unidades):
+    Cortes:  [2050, 1710, 1820]
+    Utilizado:   5580 unidades
+    Desperdicio: 20 unidades
+
+Barra 33 (Tamaño: 5600 unidades):
+    Cortes:  [1380, 1930, 2140]
+    Utilizado:   5450 unidades
+    Desperdicio: 150 unidades
+
+Barra 34 (Tamaño: 5600 unidades):
+    Cortes:  [1820, 1710, 2000]
+    Utilizado:   5530 unidades
+    Desperdicio: 70 unidades
+
+Barra 35 (Tamaño: 5600 unidades):
+    Cortes:  [1880, 1520, 2140]
+    Utilizado:   5540 unidades
+    Desperdicio: 60 unidades
+
+Barra 36 (Tamaño: 5600 unidades):
+    Cortes:  [1520, 1880, 2150]
+    Utilizado:   5550 unidades
+    Desperdicio: 50 unidades
+
+Barra 37 (Tamaño: 5600 unidades):
+    Cortes:  [1560, 1930, 2100]
+    Utilizado:   5590 unidades
+    Desperdicio: 10 unidades
+
+Barra 38 (Tamaño: 5600 unidades):
+    Cortes:  [1380, 2150, 1930]
+    Utilizado:   5460 unidades
+    Desperdicio: 140 unidades
+
+Barra 39 (Tamaño: 5600 unidades):
+    Cortes:  [2150, 2100]
+    Utilizado:   4250 unidades
+    Desperdicio: 1350 unidades
+
+Barra 40 (Tamaño: 5600 unidades):
+    Cortes:  [1380, 2100, 2100]
+    Utilizado:   5580 unidades
+    Desperdicio: 20 unidades
+
+Barra 41 (Tamaño: 5600 unidades):
+    Cortes:  [1930, 1520, 2150]
+    Utilizado:   5600 unidades
+    Desperdicio: 0 unidades
+
+Barra 42 (Tamaño: 5600 unidades):
+    Cortes:  [1380, 1930, 2140]
+    Utilizado:   5450 unidades
+    Desperdicio: 150 unidades
+
+Barra 43 (Tamaño: 5600 unidades):
+    Cortes:  [2100, 1380, 2050]
+    Utilizado:   5530 unidades
+    Desperdicio: 70 unidades
+
+Barra 44 (Tamaño: 5600 unidades):
+    Cortes:  [2050, 1710, 1820]
+    Utilizado:   5580 unidades
+    Desperdicio: 20 unidades
+
+Barra 45 (Tamaño: 5600 unidades):
+    Cortes:  [1380, 1930, 2140]
+    Utilizado:   5450 unidades
+    Desperdicio: 150 unidades
+
+Barra 46 (Tamaño: 5600 unidades):
+    Cortes:  [2200, 2200]
+    Utilizado:   4400 unidades
+    Desperdicio: 1200 unidades
+
+Barra 47 (Tamaño: 5600 unidades):
+    Cortes:  [1820, 1560, 2200]
+    Utilizado:   5580 unidades
+    Desperdicio: 20 unidades
+
+Barra 48 (Tamaño: 5600 unidades):
+    Cortes:  [2200, 2200]
+    Utilizado:   4400 unidades
+    Desperdicio: 1200 unidades
+
+Barra 49 (Tamaño: 5600 unidades):
+    Cortes:  [1880, 1710, 2000]
+    Utilizado:   5590 unidades
+    Desperdicio: 10 unidades
+
+Barra 50 (Tamaño: 5600 unidades):
+    Cortes:  [1880, 1520, 2140]
+    Utilizado:   5540 unidades
+    Desperdicio: 60 unidades
+
+Barra 51 (Tamaño: 5600 unidades):
+    Cortes:  [1520, 1880, 2150]
+    Utilizado:   5550 unidades
+    Desperdicio: 50 unidades
+
+Barra 52 (Tamaño: 5600 unidades):
+    Cortes:  [1560, 1930, 2100]
+    Utilizado:   5590 unidades
+    Desperdicio: 10 unidades
+
+Barra 53 (Tamaño: 5600 unidades):
+    Cortes:  [1380, 2150, 1930]
+    Utilizado:   5460 unidades
+    Desperdicio: 140 unidades
+
+Barra 54 (Tamaño: 5600 unidades):
+    Cortes:  [2150, 2100]
+    Utilizado:   4250 unidades
+    Desperdicio: 1350 unidades
+
+Barra 55 (Tamaño: 5600 unidades):
+    Cortes:  [1380, 2100, 2100]
+    Utilizado:   5580 unidades
+    Desperdicio: 20 unidades
+
+Barra 56 (Tamaño: 5600 unidades):
+    Cortes:  [1930, 1520, 2150]
+    Utilizado:   5600 unidades
+    Desperdicio: 0 unidades
+
+Barra 57 (Tamaño: 5600 unidades):
+    Cortes:  [1380, 1930, 2140]
+    Utilizado:   5450 unidades
+    Desperdicio: 150 unidades
+
+Barra 58 (Tamaño: 5600 unidades):
+    Cortes:  [2100, 1380, 2050]
+    Utilizado:   5530 unidades
+    Desperdicio: 70 unidades
+
+Barra 59 (Tamaño: 5600 unidades):
+    Cortes:  [2050, 1710, 1820]
+    Utilizado:   5580 unidades
+    Desperdicio: 20 unidades
+
+Barra 60 (Tamaño: 5600 unidades):
+    Cortes:  [1380, 1930, 2140]
+    Utilizado:   5450 unidades
+    Desperdicio: 150 unidades
+
+Barra 61 (Tamaño: 5600 unidades):
+    Cortes:  [2200, 2200]
+    Utilizado:   4400 unidades
+    Desperdicio: 1200 unidades
+
+Barra 62 (Tamaño: 5600 unidades):
+    Cortes:  [1820, 1560, 2200]
+    Utilizado:   5580 unidades
+    Desperdicio: 20 unidades
+
+Barra 63 (Tamaño: 5600 unidades):
+    Cortes:  [2200, 2200]
+    Utilizado:   4400 unidades
+    Desperdicio: 1200 unidades
+
+Barra 64 (Tamaño: 5600 unidades):
+    Cortes:  [1880, 1710, 2000]
+    Utilizado:   5590 unidades
+    Desperdicio: 10 unidades
+
+Barra 65 (Tamaño: 5600 unidades):
+    Cortes:  [1880, 1520, 2150]
+    Utilizado:   5550 unidades
+    Desperdicio: 50 unidades
+
+Barra 66 (Tamaño: 5600 unidades):
+    Cortes:  [2140, 1520, 1880]
+    Utilizado:   5540 unidades
+    Desperdicio: 60 unidades
+
+Barra 67 (Tamaño: 5600 unidades):
+    Cortes:  [1380, 1930, 2140]
+    Utilizado:   5450 unidades
+    Desperdicio: 150 unidades
+
+Barra 68 (Tamaño: 5600 unidades):
+    Cortes:  [2100, 1380, 2050]
+    Utilizado:   5530 unidades
+    Desperdicio: 70 unidades
+
+Barra 69 (Tamaño: 5600 unidades):
+    Cortes:  [2050, 1710, 1820]
+    Utilizado:   5580 unidades
+    Desperdicio: 20 unidades
+
+Barra 70 (Tamaño: 5600 unidades):
+    Cortes:  [1380, 1930, 2140]
+    Utilizado:   5450 unidades
+    Desperdicio: 150 unidades
+
+Barra 71 (Tamaño: 5600 unidades):
+    Cortes:  [2200, 2200]
+    Utilizado:   4400 unidades
+    Desperdicio: 1200 unidades
+
+Barra 72 (Tamaño: 5600 unidades):
+    Cortes:  [1820, 1560, 2200]
+    Utilizado:   5580 unidades
+    Desperdicio: 20 unidades
+
+Barra 73 (Tamaño: 5600 unidades):
+    Cortes:  [2200, 2200]
+    Utilizado:   4400 unidades
+    Desperdicio: 1200 unidades
+
+Barra 74 (Tamaño: 5600 unidades):
+    Cortes:  [1880, 1710, 2000]
+    Utilizado:   5590 unidades
+    Desperdicio: 10 unidades
+
+Barra 75 (Tamaño: 5600 unidades):
+    Cortes:  [1880, 1520, 2150]
+    Utilizado:   5550 unidades
+    Desperdicio: 50 unidades
+
+Barra 76 (Tamaño: 5600 unidades):
+    Cortes:  [2140, 1520, 1880]
+    Utilizado:   5540 unidades
+    Desperdicio: 60 unidades
+================================
