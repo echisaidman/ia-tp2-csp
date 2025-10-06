@@ -1,0 +1,132 @@
+Total de barras usadas: 74
+Porcentaje desperdiciado: 1.75%
+
+
+[1710, 1710, 2150] (x3):
+  - Utilizado: 5570
+  - Desperdicio: 30 (0.54%)
+
+
+[1560, 1820, 2150] (x1):
+  - Utilizado: 5530
+  - Desperdicio: 70 (1.25%)
+
+
+[2150, 2150] (x1):
+  - Utilizado: 4300
+  - Desperdicio: 1300 (23.21%)
+
+
+[1560, 1930, 2100] (x5):
+  - Utilizado: 5590
+  - Desperdicio: 10 (0.18%)
+
+
+[1820, 2150] (x1):
+  - Utilizado: 3970
+  - Desperdicio: 1630 (29.11%)
+
+
+[1560, 1820, 2100] (x1):
+  - Utilizado: 5480
+  - Desperdicio: 120 (2.14%)
+
+
+[1710, 1930, 1930] (x1):
+  - Utilizado: 5570
+  - Desperdicio: 30 (0.54%)
+
+
+[1560, 1820, 1930] (x1):
+  - Utilizado: 5310
+  - Desperdicio: 290 (5.18%)
+
+
+[1520, 1930, 2150] (x2):
+  - Utilizado: 5600
+  - Desperdicio: 0 (0.00%)
+
+
+[1520, 1880, 2150] (x5):
+  - Utilizado: 5550
+  - Desperdicio: 50 (0.89%)
+
+
+[1380, 2050, 2140] (x8):
+  - Utilizado: 5570
+  - Desperdicio: 30 (0.54%)
+
+
+[1380, 2000, 2140] (x1):
+  - Utilizado: 5520
+  - Desperdicio: 80 (1.43%)
+
+
+[1520, 1880, 2200] (x9):
+  - Utilizado: 5600
+  - Desperdicio: 0 (0.00%)
+
+
+[1380, 1820, 2150] (x2):
+  - Utilizado: 5350
+  - Desperdicio: 250 (4.46%)
+
+
+[1710, 1820, 2050] (x4):
+  - Utilizado: 5580
+  - Desperdicio: 20 (0.36%)
+
+
+[1380, 2000, 2200] (x6):
+  - Utilizado: 5580
+  - Desperdicio: 20 (0.36%)
+
+
+[1520, 1820, 2200] (x1):
+  - Utilizado: 5540
+  - Desperdicio: 60 (1.07%)
+
+
+[1560, 1880, 2150] (x2):
+  - Utilizado: 5590
+  - Desperdicio: 10 (0.18%)
+
+
+[1380, 2100, 2100] (x3):
+  - Utilizado: 5580
+  - Desperdicio: 20 (0.36%)
+
+
+[1380, 2000, 2100] (x2):
+  - Utilizado: 5480
+  - Desperdicio: 120 (2.14%)
+
+
+[1710, 1820, 1930] (x3):
+  - Utilizado: 5460
+  - Desperdicio: 140 (2.50%)
+
+
+[1520, 1930, 2140] (x7):
+  - Utilizado: 5590
+  - Desperdicio: 10 (0.18%)
+
+
+[1820, 1820, 1880] (x1):
+  - Utilizado: 5520
+  - Desperdicio: 80 (1.43%)
+
+
+[2200, 2200] (x1):
+  - Utilizado: 4400
+  - Desperdicio: 1200 (21.43%)
+
+
+[1520, 1880, 2000] (x1):
+  - Utilizado: 5400
+  - Desperdicio: 200 (3.57%)
+
+
+[1560, 1820, 2200] (x2):
+  - Utilizado: 5580
+  - Desperdicio: 20 (0.36%)
