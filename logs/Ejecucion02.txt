@@ -1,0 +1,505 @@
+Gen    1 | Barras usadas = 86 | Desperdicio = 74440 | % Desperdiciado = 15.46%
+Gen    2 | Barras usadas = 85 | Desperdicio = 68840 | % Desperdiciado = 14.46%
+Gen    3 | Barras usadas = 85 | Desperdicio = 68840 | % Desperdiciado = 14.46%
+Gen    4 | Barras usadas = 84 | Desperdicio = 63240 | % Desperdiciado = 13.44%
+Gen    5 | Barras usadas = 84 | Desperdicio = 63240 | % Desperdiciado = 13.44%
+Gen    6 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen    7 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen    8 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen    9 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   10 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   11 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   12 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   13 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   14 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   15 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   16 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   17 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   18 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   19 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   20 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   21 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen   22 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   23 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   24 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   25 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   26 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   27 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   28 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   29 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   30 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   31 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   32 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   33 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen   34 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen   35 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen   36 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen   37 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen   38 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   39 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen   40 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   41 | Barras usadas = 83 | Desperdicio = 57640 | % Desperdiciado = 12.40%
+Gen   42 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen   43 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   44 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen   45 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   46 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen   47 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   48 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen   49 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   50 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   51 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   52 | Barras usadas = 82 | Desperdicio = 52040 | % Desperdiciado = 11.33%
+Gen   53 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   54 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   55 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   56 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   57 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   58 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   59 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   60 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   61 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   62 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   63 | Barras usadas = 81 | Desperdicio = 46440 | % Desperdiciado = 10.24%
+Gen   64 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   65 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   66 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   67 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   68 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   69 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   70 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   71 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   72 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   73 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   74 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   75 | Barras usadas = 80 | Desperdicio = 40840 | % Desperdiciado = 9.12%
+Gen   76 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   77 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   78 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   79 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   80 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   81 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   82 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   83 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   84 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   85 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   86 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   87 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   88 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   89 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   90 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   91 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   92 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   93 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   94 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   95 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   96 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   97 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   98 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen   99 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+Gen  100 | Barras usadas = 79 | Desperdicio = 35240 | % Desperdiciado = 7.97%
+
+
+=================================
+    Mejor solucion encontrada    
+=================================
+Barras requeridas: 79
+Desperdicio total: 35240 unidades
+% Desperdiciado: 7.97%
+---------------------------------
+
+Barra  1 (Tamaño: 5600 unidades):
+    Cortes:  [1710, 1710, 1710]
+    Utilizado:   5130 unidades
+    Desperdicio: 470 unidades
+
+Barra  2 (Tamaño: 5600 unidades):
+    Cortes:  [1710, 1710, 2100]
+    Utilizado:   5520 unidades
+    Desperdicio: 80 unidades
+
+Barra  3 (Tamaño: 5600 unidades):
+    Cortes:  [2100, 1710, 1710]
+    Utilizado:   5520 unidades
+    Desperdicio: 80 unidades
+
+Barra  4 (Tamaño: 5600 unidades):
+    Cortes:  [1710, 1710, 2100]
+    Utilizado:   5520 unidades
+    Desperdicio: 80 unidades
+
+Barra  5 (Tamaño: 5600 unidades):
+    Cortes:  [2100, 2140]
+    Utilizado:   4240 unidades
+    Desperdicio: 1360 unidades
+
+Barra  6 (Tamaño: 5600 unidades):
+    Cortes:  [2140, 2140]
+    Utilizado:   4280 unidades
+    Desperdicio: 1320 unidades
+
+Barra  7 (Tamaño: 5600 unidades):
+    Cortes:  [2000, 2100]
+    Utilizado:   4100 unidades
+    Desperdicio: 1500 unidades
+
+Barra  8 (Tamaño: 5600 unidades):
+    Cortes:  [2140, 2140]
+    Utilizado:   4280 unidades
+    Desperdicio: 1320 unidades
+
+Barra  9 (Tamaño: 5600 unidades):
+    Cortes:  [1710, 1560, 2000]
+    Utilizado:   5270 unidades
+    Desperdicio: 330 unidades
+
+Barra 10 (Tamaño: 5600 unidades):
+    Cortes:  [2140, 2000]
+    Utilizado:   4140 unidades
+    Desperdicio: 1460 unidades
+
+Barra 11 (Tamaño: 5600 unidades):
+    Cortes:  [1710, 2100, 1560]
+    Utilizado:   5370 unidades
+    Desperdicio: 230 unidades
+
+Barra 12 (Tamaño: 5600 unidades):
+    Cortes:  [1560, 1820, 2100]
+    Utilizado:   5480 unidades
+    Desperdicio: 120 unidades
+
+Barra 13 (Tamaño: 5600 unidades):
+    Cortes:  [1820, 1560, 2150]
+    Utilizado:   5530 unidades
+    Desperdicio: 70 unidades
+
+Barra 14 (Tamaño: 5600 unidades):
+    Cortes:  [2140, 1560, 1880]
+    Utilizado:   5580 unidades
+    Desperdicio: 20 unidades
+
+Barra 15 (Tamaño: 5600 unidades):
+    Cortes:  [1820, 2100]
+    Utilizado:   3920 unidades
+    Desperdicio: 1680 unidades
+
+Barra 16 (Tamaño: 5600 unidades):
+    Cortes:  [2140, 2050]
+    Utilizado:   4190 unidades
+    Desperdicio: 1410 unidades
+
+Barra 17 (Tamaño: 5600 unidades):
+    Cortes:  [2100, 1520, 1880]
+    Utilizado:   5500 unidades
+    Desperdicio: 100 unidades
+
+Barra 18 (Tamaño: 5600 unidades):
+    Cortes:  [2150, 1520, 1820]
+    Utilizado:   5490 unidades
+    Desperdicio: 110 unidades
+
+Barra 19 (Tamaño: 5600 unidades):
+    Cortes:  [2050, 1560, 1880]
+    Utilizado:   5490 unidades
+    Desperdicio: 110 unidades
+
+Barra 20 (Tamaño: 5600 unidades):
+    Cortes:  [2150, 1520, 1820]
+    Utilizado:   5490 unidades
+    Desperdicio: 110 unidades
+
+Barra 21 (Tamaño: 5600 unidades):
+    Cortes:  [1930, 2050]
+    Utilizado:   3980 unidades
+    Desperdicio: 1620 unidades
+
+Barra 22 (Tamaño: 5600 unidades):
+    Cortes:  [2140, 1380, 1930]
+    Utilizado:   5450 unidades
+    Desperdicio: 150 unidades
+
+Barra 23 (Tamaño: 5600 unidades):
+    Cortes:  [1380, 2000, 1380]
+    Utilizado:   4760 unidades
+    Desperdicio: 840 unidades
+
+Barra 24 (Tamaño: 5600 unidades):
+    Cortes:  [2150, 2100]
+    Utilizado:   4250 unidades
+    Desperdicio: 1350 unidades
+
+Barra 25 (Tamaño: 5600 unidades):
+    Cortes:  [2150, 2200]
+    Utilizado:   4350 unidades
+    Desperdicio: 1250 unidades
+
+Barra 26 (Tamaño: 5600 unidades):
+    Cortes:  [1880, 2150, 1520]
+    Utilizado:   5550 unidades
+    Desperdicio: 50 unidades
+
+Barra 27 (Tamaño: 5600 unidades):
+    Cortes:  [1820, 1930, 1820]
+    Utilizado:   5570 unidades
+    Desperdicio: 30 unidades
+
+Barra 28 (Tamaño: 5600 unidades):
+    Cortes:  [1930, 1520, 2150]
+    Utilizado:   5600 unidades
+    Desperdicio: 0 unidades
+
+Barra 29 (Tamaño: 5600 unidades):
+    Cortes:  [2000, 2140, 1380]
+    Utilizado:   5520 unidades
+    Desperdicio: 80 unidades
+
+Barra 30 (Tamaño: 5600 unidades):
+    Cortes:  [2200, 1930, 1380]
+    Utilizado:   5510 unidades
+    Desperdicio: 90 unidades
+
+Barra 31 (Tamaño: 5600 unidades):
+    Cortes:  [2000, 1380, 2150]
+    Utilizado:   5530 unidades
+    Desperdicio: 70 unidades
+
+Barra 32 (Tamaño: 5600 unidades):
+    Cortes:  [1520, 1880, 2200]
+    Utilizado:   5600 unidades
+    Desperdicio: 0 unidades
+
+Barra 33 (Tamaño: 5600 unidades):
+    Cortes:  [1520, 2200, 1820]
+    Utilizado:   5540 unidades
+    Desperdicio: 60 unidades
+
+Barra 34 (Tamaño: 5600 unidades):
+    Cortes:  [1930, 1520, 2150]
+    Utilizado:   5600 unidades
+    Desperdicio: 0 unidades
+
+Barra 35 (Tamaño: 5600 unidades):
+    Cortes:  [2000, 2140, 1380]
+    Utilizado:   5520 unidades
+    Desperdicio: 80 unidades
+
+Barra 36 (Tamaño: 5600 unidades):
+    Cortes:  [2200, 1930, 1380]
+    Utilizado:   5510 unidades
+    Desperdicio: 90 unidades
+
+Barra 37 (Tamaño: 5600 unidades):
+    Cortes:  [1930, 1520, 2150]
+    Utilizado:   5600 unidades
+    Desperdicio: 0 unidades
+
+Barra 38 (Tamaño: 5600 unidades):
+    Cortes:  [2000, 2140, 1380]
+    Utilizado:   5520 unidades
+    Desperdicio: 80 unidades
+
+Barra 39 (Tamaño: 5600 unidades):
+    Cortes:  [2200, 1930]
+    Utilizado:   4130 unidades
+    Desperdicio: 1470 unidades
+
+Barra 40 (Tamaño: 5600 unidades):
+    Cortes:  [1710, 1520, 2200]
+    Utilizado:   5430 unidades
+    Desperdicio: 170 unidades
+
+Barra 41 (Tamaño: 5600 unidades):
+    Cortes:  [1930, 1380, 2200]
+    Utilizado:   5510 unidades
+    Desperdicio: 90 unidades
+
+Barra 42 (Tamaño: 5600 unidades):
+    Cortes:  [2050, 1560, 1880]
+    Utilizado:   5490 unidades
+    Desperdicio: 110 unidades
+
+Barra 43 (Tamaño: 5600 unidades):
+    Cortes:  [2150, 1520, 1820]
+    Utilizado:   5490 unidades
+    Desperdicio: 110 unidades
+
+Barra 44 (Tamaño: 5600 unidades):
+    Cortes:  [1930, 1520, 1380]
+    Utilizado:   4830 unidades
+    Desperdicio: 770 unidades
+
+Barra 45 (Tamaño: 5600 unidades):
+    Cortes:  [2000, 1380, 2150]
+    Utilizado:   5530 unidades
+    Desperdicio: 70 unidades
+
+Barra 46 (Tamaño: 5600 unidades):
+    Cortes:  [2200, 1880, 1520]
+    Utilizado:   5600 unidades
+    Desperdicio: 0 unidades
+
+Barra 47 (Tamaño: 5600 unidades):
+    Cortes:  [2150, 1710, 1380]
+    Utilizado:   5240 unidades
+    Desperdicio: 360 unidades
+
+Barra 48 (Tamaño: 5600 unidades):
+    Cortes:  [1880, 2100, 1520]
+    Utilizado:   5500 unidades
+    Desperdicio: 100 unidades
+
+Barra 49 (Tamaño: 5600 unidades):
+    Cortes:  [2150, 1520, 1880]
+    Utilizado:   5550 unidades
+    Desperdicio: 50 unidades
+
+Barra 50 (Tamaño: 5600 unidades):
+    Cortes:  [2150, 1520, 1820]
+    Utilizado:   5490 unidades
+    Desperdicio: 110 unidades
+
+Barra 51 (Tamaño: 5600 unidades):
+    Cortes:  [1930, 1380, 2200]
+    Utilizado:   5510 unidades
+    Desperdicio: 90 unidades
+
+Barra 52 (Tamaño: 5600 unidades):
+    Cortes:  [2050, 1560, 1880]
+    Utilizado:   5490 unidades
+    Desperdicio: 110 unidades
+
+Barra 53 (Tamaño: 5600 unidades):
+    Cortes:  [2150, 1930, 1380]
+    Utilizado:   5460 unidades
+    Desperdicio: 140 unidades
+
+Barra 54 (Tamaño: 5600 unidades):
+    Cortes:  [1560, 1880, 1820]
+    Utilizado:   5260 unidades
+    Desperdicio: 340 unidades
+
+Barra 55 (Tamaño: 5600 unidades):
+    Cortes:  [1930, 2050]
+    Utilizado:   3980 unidades
+    Desperdicio: 1620 unidades
+
+Barra 56 (Tamaño: 5600 unidades):
+    Cortes:  [2100, 2200]
+    Utilizado:   4300 unidades
+    Desperdicio: 1300 unidades
+
+Barra 57 (Tamaño: 5600 unidades):
+    Cortes:  [1520, 2200, 1520]
+    Utilizado:   5240 unidades
+    Desperdicio: 360 unidades
+
+Barra 58 (Tamaño: 5600 unidades):
+    Cortes:  [2200, 1380, 1880]
+    Utilizado:   5460 unidades
+    Desperdicio: 140 unidades
+
+Barra 59 (Tamaño: 5600 unidades):
+    Cortes:  [2150, 1520, 1820]
+    Utilizado:   5490 unidades
+    Desperdicio: 110 unidades
+
+Barra 60 (Tamaño: 5600 unidades):
+    Cortes:  [1930, 1380, 2200]
+    Utilizado:   5510 unidades
+    Desperdicio: 90 unidades
+
+Barra 61 (Tamaño: 5600 unidades):
+    Cortes:  [2050, 1560, 1880]
+    Utilizado:   5490 unidades
+    Desperdicio: 110 unidades
+
+Barra 62 (Tamaño: 5600 unidades):
+    Cortes:  [2150, 1520, 1820]
+    Utilizado:   5490 unidades
+    Desperdicio: 110 unidades
+
+Barra 63 (Tamaño: 5600 unidades):
+    Cortes:  [1930, 1380, 2200]
+    Utilizado:   5510 unidades
+    Desperdicio: 90 unidades
+
+Barra 64 (Tamaño: 5600 unidades):
+    Cortes:  [2050, 2140, 1380]
+    Utilizado:   5570 unidades
+    Desperdicio: 30 unidades
+
+Barra 65 (Tamaño: 5600 unidades):
+    Cortes:  [2050, 1820]
+    Utilizado:   3870 unidades
+    Desperdicio: 1730 unidades
+
+Barra 66 (Tamaño: 5600 unidades):
+    Cortes:  [1930, 2200]
+    Utilizado:   4130 unidades
+    Desperdicio: 1470 unidades
+
+Barra 67 (Tamaño: 5600 unidades):
+    Cortes:  [2050, 2140]
+    Utilizado:   4190 unidades
+    Desperdicio: 1410 unidades
+
+Barra 68 (Tamaño: 5600 unidades):
+    Cortes:  [2050, 1880, 1520]
+    Utilizado:   5450 unidades
+    Desperdicio: 150 unidades
+
+Barra 69 (Tamaño: 5600 unidades):
+    Cortes:  [1560, 2140, 1710]
+    Utilizado:   5410 unidades
+    Desperdicio: 190 unidades
+
+Barra 70 (Tamaño: 5600 unidades):
+    Cortes:  [2100, 2200]
+    Utilizado:   4300 unidades
+    Desperdicio: 1300 unidades
+
+Barra 71 (Tamaño: 5600 unidades):
+    Cortes:  [1520, 2200, 1380]
+    Utilizado:   5100 unidades
+    Desperdicio: 500 unidades
+
+Barra 72 (Tamaño: 5600 unidades):
+    Cortes:  [1880, 2200, 1520]
+    Utilizado:   5600 unidades
+    Desperdicio: 0 unidades
+
+Barra 73 (Tamaño: 5600 unidades):
+    Cortes:  [2200, 1380, 1880]
+    Utilizado:   5460 unidades
+    Desperdicio: 140 unidades
+
+Barra 74 (Tamaño: 5600 unidades):
+    Cortes:  [2100, 1520, 1930]
+    Utilizado:   5550 unidades
+    Desperdicio: 50 unidades
+
+Barra 75 (Tamaño: 5600 unidades):
+    Cortes:  [1820, 1820, 1880]
+    Utilizado:   5520 unidades
+    Desperdicio: 80 unidades
+
+Barra 76 (Tamaño: 5600 unidades):
+    Cortes:  [1520, 1380, 2050]
+    Utilizado:   4950 unidades
+    Desperdicio: 650 unidades
+
+Barra 77 (Tamaño: 5600 unidades):
+    Cortes:  [1560, 2000, 1930]
+    Utilizado:   5490 unidades
+    Desperdicio: 110 unidades
+
+Barra 78 (Tamaño: 5600 unidades):
+    Cortes:  [1930, 1820, 1820]
+    Utilizado:   5570 unidades
+    Desperdicio: 30 unidades
+
+Barra 79 (Tamaño: 5600 unidades):
+    Cortes:  [1880, 2140]
+    Utilizado:   4020 unidades
+    Desperdicio: 1580 unidades
+================================
