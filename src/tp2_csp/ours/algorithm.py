@@ -168,7 +168,11 @@ class CSPGeneticAlgorithm:
         if random.random() > self.parameters.mutation_rate:
             return population
 
-        number_of_individuals_to_mutate = int(len(population) * self.parameters.percentage_of_individuals_to_mutate)
+        number_of_individuals_to_mutate = (
+            1
+            if self.parameters.percentage_of_individuals_to_mutate is None
+            else int(len(population) * self.parameters.percentage_of_individuals_to_mutate)
+        )
         for _ in range(number_of_individuals_to_mutate):
             idx_to_mutate = random.randint(0, len(population) - 1)
             individual_to_mutate = population[idx_to_mutate]
